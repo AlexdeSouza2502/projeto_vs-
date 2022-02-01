@@ -61,14 +61,14 @@ CREATE TABLE IF NOT EXISTS `listadecompras` (
 -- Copiando dados para a tabela listadecompras.listadecompras: 8 rows
 /*!40000 ALTER TABLE `listadecompras` DISABLE KEYS */;
 INSERT INTO `listadecompras` (`id`, `nome`, `quantidade`, `preco`, `subTotal`) VALUES
-	(1, 'Arroz 5 kg', 2, 22.5, 45),
-	(2, 'Óleo 900 ml', 3, 6.79, 20.37),
-	(3, 'Açucar 5 kg', 2, 12.49, 24.98),
-	(4, 'Sabão em pó', 2, 8.29, 16.58),
-	(5, 'Amaciante 2 L', 1, 5.99, 5.99),
-	(6, 'Creme Dental 90 g', 1, 3.69, 3.69),
-	(7, 'Leite 1 L', 1, 2.99, 2.99),
-	(8, 'Detergente 500 ml', 1, 1.79, 1.79);
+	(1, 'chuteira', 2, 22.5, 45),
+	(2, 'bola', 3, 6.79, 20.37),
+	(3, 'short', 2, 12.49, 24.98),
+	(4, 'raquete', 2, 8.29, 16.58),
+	(5, 'oculos', 1, 5.99, 5.99),
+	(6, 'meiao', 1, 3.69, 3.69),
+	(7, 'patins', 1, 2.99, 2.99),
+	(8, 'camiseta', 1, 1.79, 1.79);
 /*!40000 ALTER TABLE `listadecompras` ENABLE KEYS */;
 
 -- Copiando estrutura para procedure listadecompras.listaItens
